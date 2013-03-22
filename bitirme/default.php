@@ -24,7 +24,6 @@
 				
 				<span style="position:absolute; left:600px; top:50px" ng-model="view.currentTime">{{view.currentTime}}</span>
 
-				<img src="images/scale.gif" alt="Scale" height="45" width="200" style="position:absolute; left:400px; top:20px">
 				<button style="position:absolute; left:650px;" ng-click="init()">init</button>
 				<button style="position:absolute; left:600px;" ng-click="iterateSimulation()">ilerle</button>
 			</div>

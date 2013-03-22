@@ -79,6 +79,7 @@ function DiffusionController($scope) {
 
         var moleculesLocal, numberOfMoleculesLocal, distanceBetweenTwoCellsLocal, radiusT, radiusR, temp;
 		
+		drawScaler();
 		distanceBetweenTwoCellsLocal = $scope.view.distanceBetweenTwoCells;
 		moleculesLocal = [];
         numberOfMoleculesLocal = $scope.view.numberOfMolecules;
